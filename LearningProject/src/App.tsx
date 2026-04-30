@@ -1,11 +1,18 @@
-function App() {
-  return (
-    <div>
-      <h1>Menu</h1>
-      <p>1</p>
-      <p>2</p>
-      <p>3</p>
-</div>
-  )
+import{
+    ScatterChart,
+    Scatter,
+    XAxis,
+    YAxis,
+    CartesianGrid,
+    Tooltip,
+} from 'recharts';
+
+function Item(){
+    return(
+        <div>
+            <h1>Regresi Linear - by kim</h1>
+        </div>
+    )
 }
-export default App;
+
+export default Item
